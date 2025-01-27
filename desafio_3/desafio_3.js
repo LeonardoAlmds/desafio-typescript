@@ -15,7 +15,7 @@ var calcularFaturamento = function (dados) {
         mediaFaturamento: mediaFaturamento
     };
 };
-fs.readFile('faturamento.json', 'utf8', function (err, data) {
+fs.readFile('dados.json', 'utf8', function (err, data) {
     if (err) {
         console.error('Erro ao ler o arquivo:', err);
         return;
